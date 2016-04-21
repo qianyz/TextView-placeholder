@@ -25,7 +25,7 @@
 - (void)_createSubView
 {
     _textView=[[PHTextView alloc]initWithFrame:CGRectMake(10, 30, CGRectGetWidth(self.view.frame)-20, 200)];
-    _textView.placeholder=@"博客园FlyElephant\n博客地址:http://www.cnblogs.com/xiaofeixiang";
+    _textView.placeholder=@"hello world";
     
     _textView.placeholderColor= [UIColor lightGrayColor];
     [self.view addSubview:_textView];
